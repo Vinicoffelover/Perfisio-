@@ -1,0 +1,29 @@
+:root {
+    --green_dark_background: #034225;
+    --white_perfisio: #F7F3F3;
+
+}
+
+body {
+    background-color: var(--green_dark_background);
+}
+
+.welcome-section {
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section__phrase {
+    color: var(--white_perfisio);
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 155px;
+}
+
+.welcome-section__phrase__bold {
+    font-weight: 600;
+}

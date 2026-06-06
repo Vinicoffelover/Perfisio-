@@ -1,0 +1,16 @@
+.welcome-section__button {
+  width: 155px;
+  height: 48px;
+  background-color: var(--white_perfisio);
+  border-radius: 24px;
+  line-height: 32px;
+  color: var(--green_dark_background);
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.welcome-section__button:hover {
+  transform: scale(1.1);
+}
