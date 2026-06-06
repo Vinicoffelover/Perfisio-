@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+    --green_dark_background: #034225;
+    --lighter_green__buttons: #2a9042; 
+    --white_perfisio: #F7F3F3;
+    --gray_content_difficult: #D9D9D9;
+    --yellow_text_cards: #E0C88C;
+    --dark_yellow_text_cards: #7F6000;
+    --light_purple_final_level: #AC65D0;
+    --medium_purple_final_level: #713D8B;
+    --dark_purple_final_level: #28143A;
+    
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +26,6 @@ body {
 
 .header {
   margin-top: 86px;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
